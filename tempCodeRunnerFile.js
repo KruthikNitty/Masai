@@ -1,3 +1,6 @@
-let Temp=[21,22,23,24,25,26,27]
-Temp[3]=Temp[3]+2
-console.log(Temp)
+let toDoList = ["Exercise", "Study", "Grocery Shopping", "Call Friend", "Read Book"];
+
+toDoList.unshift("Morning Walk");
+toDoList.pop();
+
+console.log(toDoList);
