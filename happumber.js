@@ -13,8 +13,12 @@ function isHappNumber(n){
         n=getsumofsquares(n)
         count--;
     }
-    return n===1;
-  
+    if(n===1){
+  console.log("This Number is a happy number")
 }
-console.log(isHappNumber(19))
-console.log(isHappNumber(7))
+else{
+    console.log("This Number is not a happy number")
+}
+}
+isHappNumber(19);
+isHappNumber(2);
