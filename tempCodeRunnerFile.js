@@ -1,7 +1,12 @@
-for (let i = 0; i < 5; i++) {
-    if (i === 0 || i === 4) {
-        console.log("*"); 
-    } else {
-        console.log("*"); 
-    }
+let age=59;
+if(age>=60)
+{
+console.log('Eligible for Senior')
+}
+else if(age<=0)
+{
+console.log("Invalid Age")
+}
+else{
+console.log("Not Eligible for Senior Discount")
 }
